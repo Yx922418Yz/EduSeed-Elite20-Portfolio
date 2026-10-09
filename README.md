@@ -14,7 +14,7 @@
 |---|---|---|---|---|---|
 | **C5** | GitHub Repository | [EduSeed-C4-Skills](https://github.com/Yx922418Yz/EduSeed-C4-Skills) | — | 开源工程全套（LICENSE/CONTRIBUTING/CHANGELOG/ATTRIBUTION/AI_LOG） | `05_C5_GitHub仓库` |
 | **C5A** | GitHub 入门与仓库理解 | 个人主页 [Yx922418Yz](https://github.com/Yx922418Yz/Yx922418Yz) ＋ Fork [neoskills](https://github.com/Yx922418Yz/neoskills)（分支 [`add-chinese-readme`](https://github.com/Yx922418Yz/neoskills/tree/add-chinese-readme)） | — | Level 4（Platinum） | `05A_C5A_GitHub入门` |
-| **C6** | Web Application | [EduSeed-C6-SkillXRay](https://github.com/Yx922418Yz/EduSeed-C6-SkillXRay) | [🟢 打开 Skill X-Ray](https://yx922418yz.github.io/EduSeed-C6-SkillXRay/) | 🟣 核心规则引擎免登录/免 Key 离线可用 | `06_C6_Web应用` |
+| **C6** | Web Application | [EduSeed-C6-SkillXRay](https://github.com/Yx922418Yz/EduSeed-C6-SkillXRay) | [🟢 打开 Skill X-Ray](https://yx922418yz.github.io/EduSeed-C6-SkillXRay/) | 🟣 核心免登录/免 Key；已内置 **DeepSeek 预设** | `06_C6_Web应用` |
 | **C6A** | 提交数据仪表盘 | [EduSeed-C6A-Dashboard](https://github.com/Yx922418Yz/EduSeed-C6A-Dashboard) | [🟢 打开仪表盘](https://yx922418yz.github.io/EduSeed-C6A-Dashboard/dashboard/) | 🥇 Gold（5-Sheet Excel + ECharts 静态站） | `06A_C6A_数据仪表盘` |
 | **C7** | 内容传播 | [EduSeed-C7-Content](https://github.com/Yx922418Yz/EduSeed-C7-Content) | — | 2 篇可直接发布的公众号完整稿 | `07_C7_内容传播` |
 | **C8** | 真实项目落地 | [EduSeed-C8-CourseForge](https://github.com/Yx922418Yz/EduSeed-C8-CourseForge) | — | Proposal ＋ 原型本机真跑通 | `08_C8_真实项目落地` |
@@ -64,9 +64,9 @@
 | 事项 | 当前状态 | 后续步骤（已写入对应文档） |
 |---|---|---|
 | 公众号文章真实发布 | 文章与排版 100% 就绪，未发布 | 按 C7《公众号发布SOP.md》8 步发布，回填链接 |
-| Hermes 首次真实对话 | 程序可运行、`doctor` 全绿 | 到 openrouter.ai 注册 Key 写入 `.env`，按 C10H《配置说明》操作 |
+| Hermes 首次真实对话 | 程序可运行、provider/模型已固定为 DeepSeek | 把 DeepSeek key 写入本地 `.env`（模板见 `.env.example`），运行 `hermes -z "你好"` |
 | C6A 同班同学数据 | 10 名同学为虚构演示数据 | 已在 JSON/说明/仪表盘三处标注，替换为真实数据即可 |
-| C6 AI 深度点评 | 功能就绪 | 用户填入自己的 OpenAI 兼容 Key（仅存本地浏览器） |
+| C6 AI 深度点评 | 功能就绪，已内置 DeepSeek 快捷预设 | 点"DeepSeek"预设并填自己的 key（base https://api.deepseek.com，模型 deepseek-chat；key 仅存本地浏览器） |
 
 ---
 
